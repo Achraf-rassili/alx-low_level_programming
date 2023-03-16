@@ -1,1 +1,1 @@
-# alx-low_level_programming
+This is the first day of C
