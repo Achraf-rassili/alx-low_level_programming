@@ -3,7 +3,10 @@
 /**
  * main - Entry point
  *
- * Description: Prints alphabet 
+ * Description: Prints alphabet
+ *
+ * Return: Always 0 (Success)
+ */
 void print_alphabet(void)
 	{
 		char letter;
