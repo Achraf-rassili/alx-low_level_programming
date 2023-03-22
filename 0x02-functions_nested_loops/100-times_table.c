@@ -2,17 +2,16 @@
 
 
 	/**
-	 * print_times_table - prints the n times table, starting with 0
-	 * @n: number of the times table (0 <= n <= 15)
-	 *
-	 * Description: This function prints the n times table, starting with 0.
-	 * Up to n * n.
-	 * Each line represents a different multiplier.
-	 * And each column represents a different.
-	 * Number of times that multiplier is applied to.
-	 */
-	void print_times_table(int n)
-	{
+ * print_times_table - prints the n times table, starting with 0
+ * @n: number of the times table (0 <= n <= 15)
+ *
+ * Description: This function prints the n times table, starting with 0, up to n * n.
+ * Each line represents a different multiplier, and each column represents a different
+ * number of times that multiplier is applied to.
+ */
+void print_times_table(int n)
+{
+    
 		int i, j, k;
 
 
