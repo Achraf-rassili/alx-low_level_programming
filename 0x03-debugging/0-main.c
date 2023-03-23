@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point to test whether a number is positive or negative
+ * main - Entry point to test 
+ * whether a number is positive or negative
  *
  * Return: Always 0 (Success)
  */
