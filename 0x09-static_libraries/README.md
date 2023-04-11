@@ -1,1 +1,1 @@
-This static library directory
+C - Static libraries
