@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdlib.h>
+
 /**
  * _strpbrk - Entry point
  * @s: input
  * @accept: input
- * Return: Always 0 (Success)
+ * Return: Pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found.
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 	int k;
@@ -14,11 +15,13 @@ char *_strpbrk(char *s, char *accept)
 	{
 		for (k = 0; accept[k]; k++)
 		{
-		if (*s == accept[k])
-		return (s);
+			if (*s == accept[k])
+			{
+				return (s);
+			}
 		}
-	s++;
+		s++;
 	}
 
-return ('\0');
+	return (NULL);
 }
