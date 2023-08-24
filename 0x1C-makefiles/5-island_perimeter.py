@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-"""Defines an island preimeter of the measuring function we already have."""
+"""
+Defines an island preimeter of the measuring function we already have.
+Functions:
+    island_perimeter(grid): Calculates the perimeter
+    of the island defined in the grid.
+"""
+
 def island_perimeter(grid):
     """
     Calculate the perimeter of an island defined by the grid.
