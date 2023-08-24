@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 """
-Defines an island preimeter of the measuring function we already have.
+This script defines a function to calculate the perimeter of an island.
+The island is represented by a grid where water is denoted by 0 and land by 1.
+
 Functions:
     island_perimeter(grid): Calculates the perimeter
     of the island defined in the grid.
 """
+
 
 def island_perimeter(grid):
     """
